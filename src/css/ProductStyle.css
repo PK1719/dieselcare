@@ -1,0 +1,35 @@
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    width: 100%; /* Adjust as needed */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  @media (min-width: 768px) {
+    .slide {
+      width: 50%; /* Adjust as needed */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .slide {
+      width: 33.33%; /* Adjust as needed */
+    }
+  }
+  
